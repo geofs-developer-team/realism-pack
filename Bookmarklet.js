@@ -1,0 +1,1 @@
+javascript:(() => {var realismScript = document.createElement('script'); realismScript.src="https://raw.githubusercontent.com/Geofs-developer-team/GEOFS-LiverySelector/main/main.js";document.body.appendChild(realismScript);realismScript.onload = (function(){realismGo()});})()
