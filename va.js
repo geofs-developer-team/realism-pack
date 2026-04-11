@@ -5,7 +5,7 @@ function init(){
     document.getElementById("liverylist").parentNode.appendChild(vadiv)
     links = localStorage.links.split(",");
     links.forEach(async function(e){
-        await fetch("https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main/livery.json").then(res => res.json()).then(data => valiveryobj[e] = data)
+        await fetch("https://raw.githubusercontent.com/Geofs-developer-team/Realism-Pack/main/livery.json").then(res => res.json()).then(data => valiveryobj[e] = data)
     });
 }
 
