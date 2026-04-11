@@ -1,5 +1,5 @@
-const githubRepo = 'https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/main';
-let jsDelivr = 'https://cdn.jsdelivr.net/gh/kolos26/GEOFS-LiverySelector@main';
+const githubRepo = 'https://raw.githubusercontent.com/Geofs-developer-team/GEOFS-LiverySelector/main';
+let jsDelivr = 'https://cdn.jsdelivr.net/gh/user/Geofs-developer-team/GEOFS-LiverySelectorrepo@version.js';
 const noCommit = jsDelivr;
 const version = '3.4.1';
 
@@ -20,7 +20,7 @@ const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYL
 (async function init() {
     // find latest commit to ensure the latest files are fetched from jsDelivr
     try {
-        const res = await fetch(`https://api.github.com/repos/kolos26/GEOFS-LiverySelector/commits/main`);
+        const res = await fetch(`https://api.github.com/repos/Geofs-developer-team/GEOFS-LiverySelector/commits/main`);
         if (!res.ok) jsDelivr = githubRepo;
         const commit = (await res.json()).sha;
         if (!/^[a-f0-9]{40}$/.test(commit)) jsDelivr = githubRepo;
@@ -1157,7 +1157,7 @@ function generateListHTML() {
         <br/>
         <a href="https://github.com/kolos26/GEOFS-LiverySelector/tree/main/tutorial" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Open Tutorial</button></a><br/>
         <a href="https://discord.gg/2tcdzyYaWU" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Join Our Discord</button></a><br/>
-        <a href="https://github.com/kolos26/GEOFS-LiverySelector" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Visit our Github page</button></a><br/>
+        <a href="https://github.com/Geofs-developer-team/GEOFS-LiverySelector" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Visit our Github page</button></a><br/>
         <a href="mailto:LiverySelector20220816@gmail.com" target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button">Contact Us: LiverySelector20220816@gmail.com</button></a><br/>
 `;
 }
