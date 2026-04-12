@@ -9,8 +9,8 @@ with open(".webhook/commit.txt", "r") as file:
     commit_id = file.read()
     print(commit_id)
 
-new_json =  json.loads(requests.get("https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/refs/heads/main/livery.json").content)
-old_json = json.loads(requests.get(f"https://raw.githubusercontent.com/kolos26/GEOFS-LiverySelector/{commit_id}/livery.json").content)
+new_json =  json.loads(requests.get("https://raw.githubusercontent.com/AirplanesAviation2361/Realism-Pack/refs/heads/main/liveries.json").content)
+old_json = json.loads(requests.get(f"https://raw.githubusercontent.com/AirplanesAviation2361/Realism-Pack/{commit_id}/liveries.json").content)
 keys = new_json["aircrafts"].keys()
 
 diff_data = []
