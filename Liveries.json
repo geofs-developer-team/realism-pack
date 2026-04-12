@@ -56995,17 +56995,31 @@
                     ],
                     "credits": "AF267"
                 }
-                 {
+                {
                     "name": "Fedex",
                     "texture": [
-                        "https://raw.githubusercontent.com/Geofs-developer-team/GEOFS-LiverySelector/main/liveries/airbus_a300-600/fedex.jpg"
+                        "https://raw.githubusercontent.com/AirplanesAviation2361/Realism-Pack/main/liveries/airbus_a300-600/fedex.jpg"
                     ],
                     "credits": "AirplanesAviation2361"
                 }
-                 {
-                    "name": "AirHongkong(DHL)",
+                {
+                    "name": "AirHongKong",
                     "texture": [
-                        "https://raw.githubusercontent.com/Geofs-developer-team/GEOFS-LiverySelector/main/liveries/airbus_a300-600/airhongkong.jpg"
+                        "https://raw.githubusercontent.com/AirplanesAviation2361/Realism-Pack/main/liveries/airbus_a300-600/airhongkong.jpg"
+                    ],
+                    "credits": "AirplanesAviation2361"
+                }
+                {
+                    "name": "DHL",
+                    "texture": [
+                        "https://raw.githubusercontent.com/AirolanesAviation2361/Realism-Pack/main/liveries/airbus_a300-600/DHL.jpg"
+                    ],
+                    "credits": "AirplanesAviation2361"
+                }
+                {
+                    "name": "MNGAirlines",
+                    "texture": [
+                        "https://raw.githubusercontent.com/AirplanesAviation2361/Realism-Pack/main/liveries/airbus_a300-600/MNGAirlines.jpg"
                     ],
                     "credits": "AirplanesAviation2361"
                 }
