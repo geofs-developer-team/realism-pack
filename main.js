@@ -20,7 +20,7 @@ const log = (e, t = "log") => console[t]("%c[%cLivery%cSelector%c] %c", LOG_STYL
 (async function init() {
     // find latest commit to ensure the latest files are fetched from jsDelivr
     try {
-        const res = await fetch(`https://api.github.com/repos/Geofs-developer-team/GEOFS-LiverySelector/commits/main`);
+        const res = await fetch(`https://api.github.com/repos/AirplanesAviation2361/Realism-Pack/commits/main`);
         if (!res.ok) jsDelivr = githubRepo;
         const commit = (await res.json()).sha;
         if (!/^[a-f0-9]{40}$/.test(commit)) jsDelivr = githubRepo;
