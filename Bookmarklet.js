@@ -1,1 +1,1 @@
-javascript:(() => {var realismScript = document.createElement('script'); realismScript.src="https://raw.githubusercontent.com/Geofs-developer-team/Realism-Pack/refs/heads/main/main.js";document.body.appendChild(realismScript);realismScript.onload = (function(){realismGo()});})()
+javascript:(() => {var realismScript = document.createElement('script'); realismScript.src="https://raw.githack.com/Geofs-developer-team/Realism-Pack/refs/heads/main/main.js";document.body.appendChild(realismScript);realismScript.onload = (function(){realismGo()});})()
